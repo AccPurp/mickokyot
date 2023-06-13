@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf8">
+        <title>TechSpech&copy;</title>
+        <link rel="stylesheet" href="style3.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div class='logo'> 
+ <a href='Tech.html'> 
+   <img src='remove.png'></a> 
+        <nav>
+            <a href="home.html"><i class="ri-home-gear-fill"></i>Home</a>
+            <a href="about.html"><i class="ri-user-settings-fill"></i>About</a>
+            <a href="contact.html"><i class="ri-contacts-fill"></i>Contact</a>
+            <a href="cellphone.html"><i class="ri-cellphone-fill"></i>cellphone</a>
+            <a href="feedback.html"><i class="ri-feedback-fill"></i>Feedback</a>
+            <div class="animation start-feedback"></div>
+        </nav>
+     <!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The form -->
+<br>
+<form class="example" action="action_page.php">
+<input type="text" placeholder="Search.." name="search">
+<button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<div>
+    <form>
+        <p class="normal">Subject:</p> <br>
+        <textarea class="subject" rows="25" cols="50" name="Feedback" spellcheck="false">
+Enter Text here
+        </textarea><br>
+    </form>
+</div>
+    <div>
+        <form>
+            <p class="normal">Feedback:</p> <br>
+            <textarea class="review" rows="25" cols="50" name="Feedback" spellcheck="false">
+Enter Text here
+            </textarea><br>
+            <p class="star">Rating:</p> <br>
+            <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div><br>
+            <input id="sub" type="submit" value="submit">
+        </form>
+    </div>
+    <script src="Star-rating.js"></script>
+    </body>
+</html>

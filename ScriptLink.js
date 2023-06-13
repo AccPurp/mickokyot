@@ -1,0 +1,1 @@
+document.write('<a href="Tech.html">Phone</a>');
